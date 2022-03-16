@@ -26,7 +26,7 @@ const Detail = () => {
 
   data.forEach((e) => {
     e.forEach((o) => {
-      if (o.id == id) {
+      if (o.id === id) {
         y.push(o)
       }
     })
